@@ -1,5 +1,12 @@
-HORSE RACE ANALYZER - PWA
+Horse Race Analyzer Version 3 - Brisnet Single-File PP Import
 
-Upload all five files in this folder to the root of a GitHub Pages site or other HTTPS static host. Open the HTTPS site in Chrome on Android, tap the three-dot menu and choose Install app / Add to Home screen.
+Upload all six files to the ROOT of your existing GitHub Pages repository.
 
-Important: The app saves races in browser storage for its particular website origin. Previously entered races in a downloaded local HTML file will NOT automatically transfer to the hosted PWA. Keep your old file if it contains data. Clearing site data can erase saved races.
+Import an EXTRACTED .DRF (or .CSV) file; do not select the ZIP archive.
+On Windows, right-click the ZIP and choose Extract All, then choose AQU0207.DRF in the app.
+The app reads data locally; it does not upload racing data.
+Your Version 2 browser entries are preserved separately under their old local storage key.
+
+The imported horse records use the latest three previous starts in the existing heuristic model.
+The heuristic is experimental and not validated for wagering.
+The importer does not update scratches, conditions, or live odds.
